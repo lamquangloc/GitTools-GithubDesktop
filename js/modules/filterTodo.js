@@ -1,6 +1,11 @@
 export function filterTodo(todos, currentFilter) {
-    if (currentFilter === 'all') {
-        return todos;
+    switch (currentFilter) {
+        case 'active':
+            return todos.filter(todo => !todo.completed);
+        case 'completed':
+            return todos.filter(todo => todo.completed);
+        case 'all':
+        default:
+            return todos;
     }
-    return todos;
 }
