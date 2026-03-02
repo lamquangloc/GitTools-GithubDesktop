@@ -8,6 +8,8 @@ import { renderTodo } from './modules/renderTodo.js';
 import { saveTodos, loadTodos } from './modules/storageTodo.js';
 import { initDarkMode, toggleDarkMode } from './modules/darkMode.js';
 
+console.log('app.js loaded');
+
 // State management
 let todos = [];
 let currentFilter = 'all';
@@ -29,8 +31,10 @@ function init() {
 function attachEventListeners() {
     // Dark mode toggle
     const darkModeBtn = document.getElementById('dark-mode-btn');
+    console.log('attachEventListeners: darkModeBtn=', darkModeBtn);
     if (darkModeBtn) {
         darkModeBtn.addEventListener('click', toggleDarkMode);
+        console.log('Dark mode button listener attached');
     }
 
     // Add todo
