@@ -1,4 +1,4 @@
-# TodoList Project
+# GitTools-GithubDesktop
 
 ## 📁 Cấu trúc dự án
 ```
@@ -21,12 +21,12 @@ todolist/
 | Người | Module | Branch | Tên Github |
 |-------|--------|--------|------------|
 | Lâm Quang Lộc (leader) |  | main,develop | LamQuangLoc-2280618505 |
-| Đào Nhật Cường | addTodo.js | feature/add-todo | 2280600337_DaoNhatCuong |
+| Đào Nhật Cường | addTodo.js | feature/add-todo | Dex-NCuong |
 | Hoàng Gia Bảo | deleteTodo.js | feature/delete-todo | hoangbao1265 |
 | Nguyễn Hữu Tịnh | filterTodo.js | feature/filter-todo | Nguyễn Hữu Tịnh |
 | Phạm Tùng Dương | renderTodo.js | feature/render-todo | PTDuong48 |
-| Phạm Thanh Tuấn | storageTodo.js | feature/storage-todo | Phạm Thanh Tuấn-3575 |
-
+| Phạm Thanh Tuấn | storageTodo.js | feature/storage-todo | nhoctuan507 |
+| Huỳnh Trung Hậu | darkMode.js | feature/darkmode | NerdKan |
 ## 📝 Quy ước code
 
 ### 1. Cấu trúc dữ liệu Todo
