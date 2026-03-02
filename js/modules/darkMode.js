@@ -1,5 +1,5 @@
 // Dark Mode Module
-// Người phụ trách: [Tên thành viên]
+// Người phụ trách: Huỳnh Trung Hậu
 // Chức năng: Xử lý giao diện sáng/tối (Dark Mode)
 
 const THEME_STORAGE_KEY = 'todolist_theme';
